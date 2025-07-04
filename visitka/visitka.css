@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ruslan+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ruslan+Display&display=swap');
+
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Open Sans", sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container, .header__container {
+	padding: 10px 120px;
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #2d541e;
+}
+
+
+.header__logo {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #2d541e;
+}
+
+.header__list {
+	display: flex;
+	gap: 30px;
+}
+
+.header__list li {
+	list-style: none;
+}
+
+.thank {
+	height: 40px;
+	background: #2d541e;
+	color: white;
+	border-radius: 10px;
+	border: 1px solid #2d541e;
+	border-radius: 4px;
+	padding: 14px 20px;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+}
+
+.profile {
+	display: flex;
+	justify-content: space-between;
+}
+
+.profile__image {
+	background-image: url('./evgen.jpg');
+	height: 600px;
+	width:500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	border: 1px solid;
+	border-color: white;
+}
+
+.profile__info {
+	width: 600px;
+	font-family: var(--font-family);
+}
+

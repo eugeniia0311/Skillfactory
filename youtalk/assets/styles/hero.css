@@ -1,0 +1,321 @@
+.hero {
+	position: relative;
+	max-width: 690px;
+	color: #333;
+}
+
+.hero__list {
+	list-style: none;
+	display: flex;
+	position: absolute;
+	padding: 0;	
+	top: 0;
+	left: 0;
+}
+
+.hero__list li {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: rgba(51, 51, 51, 0.7);	
+}
+
+.hero__list-item_mid::before {
+	content: ' ';
+	display: inline-block;
+	width: 0.4em;
+	height: 0.4em;
+	transform: rotate(45deg);
+	border-right: 1px solid rgba(51, 51, 51, 0.7);
+	border-top: 1px solid rgba(51, 51, 51, 0.7);
+	margin: 0px 10px 2px 10px;
+}
+
+.hero__list-item_mid::after {
+	content: ' ';
+	display: inline-block;
+	width: 0.4em;
+	height: 0.4em;
+	transform: rotate(45deg);
+	border-right: 1px solid rgba(51, 51, 51, 0.7);
+	border-top: 1px solid rgba(51, 51, 51, 0.7);
+	margin: 0px 10px 2px 10px;
+}
+
+.hero__intro {
+	padding-top: 88px;
+}
+
+.hero__title {
+	margin: 0;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 117%;
+	color: #333;
+}
+
+.credits {
+	display: flex;
+}
+
+.credits > :first-child::after {
+	content: '•';
+    color: #494949;
+    margin: 0px 1em;
+}
+
+.hero h5 {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 143%;
+	color: #494949;
+}
+
+.title-picture {
+	background-image: url(../images/floating-girl.png);
+	width: 690px;
+	height: 331px;
+}
+
+
+.contents__list {
+	text-decoration: underline;
+	line-height: 1.5;
+	text-decoration-skip-ink: none;
+	padding: 0px 0px 0px 20px;
+}
+
+.secondary {
+	list-style: none;
+}
+
+.primary {
+	list-style-type: disc;
+	/*list-style-position: outside;*/
+}
+
+.primary::marker {	
+	list-style-type: disc;
+	color: #03b2a5;
+	font-size: 1.5em;
+}
+
+.hero h3 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 133%;
+	color: #333;
+}
+
+.hero p {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	color: #333;
+	margin: 24px 0px;
+}
+
+.beginning__quote {
+	border-radius: 16px;
+	padding: 24px;
+	background: #f3f7fe;
+	position: relative;
+}
+
+.beginning__quote p {
+	font-style: italic;
+	font-weight: 400;
+}
+
+.beginning__quote h4 {
+	margin-bottom: 0;
+}
+
+.beginning__quote img {
+	position: absolute;
+}
+
+.whatElse__item::marker {
+	list-style-type: disc;
+	color: #03b2a5;
+	font-size: 1.5em;
+}
+
+.whatElse__item {
+	list-style-type: disc;
+}
+
+.whatElse__list {
+	padding: 0px 0px 0px 20px;
+	line-height: 1.5;
+	text-decoration-skip-ink: none;
+}
+
+.whatElse li {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	color: #333;
+}
+
+.whatElse__item {
+	margin-bottom: 16px;
+}
+
+.whatElse__picture {
+	background-image: url(../images/hypnosis.png);
+	width: 690px;
+	height: 331px;
+}
+
+.picture-caption {
+	margin-top: 16px;
+}
+
+.phrase {
+	text-align: center;
+	background-image: url(../images/pink-spot.png);
+	padding: 24px 104px 48px 102px;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #333;
+}
+
+.album-orient {
+	display: flex;
+	justify-content: space-between;
+	gap: 24px;
+}
+
+.album-orient p{
+	margin: 0;
+
+}
+
+.task {
+	padding: 24px 24px 0px 24px;
+	border-radius: 16px;
+	display: inline-block;
+}
+
+.yellow {
+		background: #fefaec;
+}
+
+.orange {
+	background-color: #fff3eb;
+}
+
+.blue {
+	background: rgba(3, 178, 165, 0.1);
+}
+
+.task-title {
+	margin: 0;	
+}
+
+.task-description {
+	margin-bottom: 0;
+}
+
+.book-orient {
+	margin-top: 24px;
+	display: flex;
+	justify-content: space-between;
+	gap: 24px;
+}
+
+.devider {
+	display: flex;
+	justify-content: center;
+}
+
+.keyWords {
+	margin-top: 24px;
+}
+
+.keyWords div {
+	display: flex;
+}
+
+
+.keyWords p {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 143%;
+	color: #2963a3;
+	margin: 0;
+}
+
+.keyWords div > ::after {
+	content: '•';
+    color: #2963a3;
+    margin: 0px 1em;
+}
+
+.keyWords div > :last-child::after {
+	content: none;
+    color: #494949;
+    margin: 0px 1em;
+}
+
+.line {
+	margin: 48px 120px;
+	border-top: 1px solid;
+	border-color: #dedede;
+	height: 1px;
+}
+
+.appointment {
+	display: flex;
+	justify-content: space-between;
+	margin: 24px 120px 115px 120px;
+}
+
+.appointment__img {
+	background-image: url('../images/conversation.png');
+	width: 520px;
+	height: 330px;
+}
+
+.appointment__text h3 {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 117%;
+	color: #333;
+}
+
+.appointment__text {
+	max-width: 349px;
+}
+
+.appointment__text p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 144%;
+	color: #333;
+}
+
+.appointment__btn {
+	border-radius: 4px;
+	padding: 20px 24px;
+	width: 238px;
+	height: 60px;
+	background: #16c8bb;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+}
+
+iframe {
+	margin: 0px 120px 48px 120px;
+}
+
+

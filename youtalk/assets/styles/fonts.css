@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ruslan+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ruslan+Display&display=swap');
+
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Open Sans", sans-serif;
+}

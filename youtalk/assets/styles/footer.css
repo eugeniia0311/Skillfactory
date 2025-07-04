@@ -1,0 +1,151 @@
+.footer {
+	background: #2963a3;
+	color: #fff;
+	padding: 40px 120px 0px 120px;
+	position: relative;
+}
+
+.footer__list {
+	width: 310px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__top {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(157, 157, 157, 0.3);
+		
+}
+
+
+.list__side {
+	list-style: none;
+	padding: 0;
+}
+
+
+.footer__item {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	color: #fff;
+	padding-bottom: 16px;
+}
+
+.list__side:last-child {
+	padding-bottom: 0px;
+}
+
+.footer__mailing {
+	max-width: 486px;
+}
+
+.footer__mailing h2 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 144%;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.footer__mailing p {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: #fff;
+	opacity: 0.7;
+}
+
+.email {
+	border: 1px solid rgba(157, 157, 157, 0.2);
+	border-radius: 4px;
+	width: 384px;
+	height: 48px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 143%;
+	color: #9d9d9d;
+	padding-left: 16px;
+	z-index: 0;
+	box-sizing: border-box;
+	
+}
+
+.email__input {
+	position: relative;
+	display: inline-block;
+}
+
+
+.send-icon {
+	z-index: 1;
+	position: absolute;
+	right: 0;
+	width: 65px;
+	height: 48px;
+	border-radius: 4px;
+	fill: #16c8bb;
+	background-image: url(../images/send.svg);
+}
+
+.footer__regalia {
+	background-image: url(../images/sk.svg);
+	width: 221px;
+	height: 50px;
+	margin-bottom: 40px;
+}
+
+.footer__media {
+	display: flex;
+	justify-content: flex-start;
+	gap: 16px;
+}
+
+.vk {
+	background-image: url(../images/vk.svg);
+	border-radius: 100%;
+	width: 32px;
+	height: 32px;
+}
+
+.tg {
+	background-image: url(../images/tg.svg);
+	border-radius: 100%;
+	width: 32px;
+	height: 32px;
+}
+
+.twitter {
+	background-image: url(../images/twitter.svg);
+	border-radius: 100%;
+	width: 32px;
+	height: 32px;
+}
+
+.dzen {
+	background-image: url(../images/dzen.svg);
+	border-radius: 100%;
+	width: 32px;
+	height: 32px;
+}
+
+.footer__extra {
+	display: flex;
+	justify-content: flex-start;
+	gap: 48px;
+	list-style: none;
+	padding-left: 0;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 143%;
+	color: #fff;
+}
+
+
+@media (max-width: 1300px) {
+	.footer {
+		padding: 40px 60px 0px 60px;
+	}
+}
